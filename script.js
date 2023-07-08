@@ -10,7 +10,7 @@ let delay = document.getElementById("delay").value;
   const response = await new Promise((resolve) => {
 	  setTimeout(() => {
 		  output.innerText = text;
-	  },delay*1000)
+	  },delay)
   });
 	return response;
 }
